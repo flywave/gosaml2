@@ -16,8 +16,9 @@ package saml2
 
 import (
 	"encoding/xml"
-	"github.com/russellhaering/gosaml2/types"
 	"time"
+
+	"github.com/flywave/gosaml2/types"
 )
 
 // LogoutRequest is the go struct representation of a logout request
