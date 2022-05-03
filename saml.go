@@ -64,6 +64,8 @@ type SAMLServiceProvider struct {
 	ValidateEncryptionCert  bool
 	SkipSignatureValidation bool
 	AllowMissingAttributes  bool
+	ScopingIDPProviderId    string
+	ScopingIDPProviderName  string
 	Clock                   *dsig.Clock
 	signingContextMu        sync.RWMutex
 	signingContext          *dsig.SigningContext
